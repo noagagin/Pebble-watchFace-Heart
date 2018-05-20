@@ -1,0 +1,43 @@
+{
+    "author": "noa@wiz1str.com",
+    "dependencies": {},
+    "keywords": [],
+    "name": "heart",
+    "pebble": {
+        "displayName": "Heart",
+        "enableMultiJS": true,
+        "messageKeys": [],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/icone.png",
+                    "menuIcon": true,
+                    "name": "icon",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/flying_heartsc.png",
+                    "name": "IMAGE_BACKGROUND",
+                    "targetPlatforms": [
+                        "aplite",
+                        "basalt",
+                        "chalk"
+                    ],
+                    "type": "bitmap"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "basalt",
+            "chalk"
+        ],
+        "uuid": "6a01513b-f9d2-492d-af49-29760da80e3f",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "2.4.0"
+}
